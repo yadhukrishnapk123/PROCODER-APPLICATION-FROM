@@ -1,0 +1,137 @@
+
+body {
+    
+    background-image: url('https://images.rawpixel.com/image_600/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L2pvYjE0NDgtYmFja2dyb3VuZC0wNGEteF8xLmpwZw.jpg'); 
+      background-size: cover; /* Adjust to cover the entire viewport */
+      background-position: center; /* Center the image */
+      font-size: larger;
+  }
+
+  /* Style for the text box */
+  #textbox {
+      width: 30%;
+      height: 10px; /* Set the width to 50% of the screen */
+      box-sizing: border-box; /* Include padding and border in the width */
+      padding: 10px; /* Add padding for better appearance */
+    
+  }
+  h2,h3{
+    text-align: center;
+  }
+
+.from{
+    padding-left: 20px;
+
+}
+
+
+  .square {
+    
+    width: 150px; /* Adjust the width of the square */
+    height: 150px; /* Adjust the height of the square */
+    transition: transform 1s ease;
+        transform: translateX(200px); /* Move 200px to the right */
+        background-color: #d1a5a5;
+
+  
+    
+  }
+
+.square{
+position: absolute;
+top: 255px;
+right: 300px;
+
+
+
+}
+
+
+
+.btn:hover {
+    background-color: #45a049; /* Darker Green */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);}
+
+
+#output{
+    height: 150px;
+    width: 150px;
+}
+@media print {
+    .noprint {
+       visibility: hidden;
+    }
+ }
+
+
+
+.header{
+background-color: rgb(165, 180, 199);
+background: none;
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+border: 2px solid black;
+margin: 8px;
+
+
+}
+
+
+table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+
+  th, td {
+      padding: 20px;
+      text-align: left;
+  }
+
+
+
+
+
+  input[type="text"], textarea {
+      width: 100%;
+      padding: 5px;
+      box-sizing: border-box;
+
+
+
+
+  }
+
+  textarea {
+      height: 100px;
+  }
+  
+
+
+
+  .photo-container {
+      width: 150px; /* Adjust width as needed */
+      height: 150px; /* Adjust height as needed */
+      border: 5px solid #3d3b3b;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+  }
+  .photo-container img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+  }
+  .photo-placeholder {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+.footer{
+   text-align: center;
+
+}
+
